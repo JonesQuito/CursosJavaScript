@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Arrays </title>
+</head>
+<body>
+	<h1>Methods of Arrays</h1>
+	<strong>concat()</strong> 
+	<script type="text/javascript">
+		var arr1 = new Array("Red", 10, 20.4);
+		var arr2 = Array("Blue", 12, 30.3, arr1);
+		arr1 = arr1.concat(arr2); // concatena dois arrays
+		document.write('<p> concat(): ' + arr1.length + '</p>');
+		console.log("concat()");
+		console.log(arr1);	
+	</script>
+
+	<strong>join()</strong> 
+	<script type="text/javascript">
+		var arr1 = new Array("Red", 10, 20.4);
+		var arr2 = Array("Blue", 12, 30.3, arr1);
+		arr1 = arr1.concat(arr2);
+		var lista = arr1.join(" - "); // separa os elementos de um array com o caracter definido
+		document.write('<p> join(): ' + lista + '</p>');
+		console.log("concat()");
+		console.log(lista);	
+	</script>
+
+	<strong>push()</strong>
+	<script type="text/javascript">
+		var arr3 = new Array("Red", 10, 20.4);
+		arr3.push("New element"); // adiciona um elemento no final do array
+		var lista = arr3.join(" - ");
+		document.write('<p> push(): ' + lista + '</p>');
+		console.log("push()");
+		console.log(lista);	
+	</script>
+
+	<strong>pop()</strong>
+	<script type="text/javascript">
+		arr3.pop("");
+		var lista = arr3.join(" - ");
+		document.write('<p> pop(): ' + lista + '</p>');
+		console.log("pop()"); // remove um elemento do final do array
+		console.log(lista);	
+	</script>
+
+	<strong>shift()</strong> 
+	<script type="text/javascript">
+		arr3.shift("");
+		var lista = arr3.join(" - ");
+		document.write('<p> shift(): ' + lista + '</p>');
+		console.log("shift()"); // remove um elemento do início do array
+		console.log(lista);	
+	</script>
+
+
+</body>
+</html>
