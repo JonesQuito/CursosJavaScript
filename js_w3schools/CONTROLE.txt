@@ -1,0 +1,1 @@
+Retomar a partir de "Expressões de JavaScript" no tópico "JS Sintaxe"
